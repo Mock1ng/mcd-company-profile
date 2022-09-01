@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="../assets/ilustrations/logo.png" type="image/x-icon">
+    <title>Pengajar | Egrow Private</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-wrapper">
+            <img src="../assets/ilustrations/logo.png" alt="Egrow Private Logo" class="logo">
+        </div>
+        <ul class="menu-wrapper">
+            <div class="active-indicator" style="transform: translateX(360px);"></div>
+            <li class="navlink">
+                <a href="./index.html" id="home">Egrow</a>
+            </li>
+            <li class="navlink">
+                <a href="./about.html" id="about-us">About Us</a>
+            </li>
+            <li class="navlink">
+                <a href="./program.html" id="program">Program</a>
+            </li>
+            <li class="navlink">
+                <a href="./pengajar.html" class="active" id="pengajar">Pengajar</a>
+            </li>
+            <li class="navlink">
+                <a id="blog">Blog</a>
+            </li>
+            <li class="daftar-btn">Daftar Sekarang</li>
+        </ul>
+        <div class="hamburger">
+            <div class="line1 line"></div>
+            <div class="line2 line"></div>
+            <div class="line3 line"></div>
+        </div>
+    </nav>
+
+    <div class="outlayer"></div>
+
+    <div class="pengajar">
+        <div class="context">
+            <h3>Data Pengajar</h3>
+
+            <div class="btn-tambah-pengajar">Tambah Pengajar</div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <!-- <th>No</th> -->
+                            <th>Nama Pengajar</th>
+                            <th>Jurusan</th>
+                            <th>Alamat</th>
+                            <th>Pengalaman</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div class="pagination-btn">
+                <button class="first first-last">First</button>
+                <div class="wrapper-wrapper">
+                    <div class="btn-wrapper"></div>
+                </div>
+                <button class="last first-last">Last</button>
+            </div>
+
+        </div>
+
+        <div class="tambah-pengajar" style="display: none;">
+            <div class="form-wrapper">
+                <div class="close">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                </div>
+                <h4>Masukkan data pengajar</h4>
+                <form action="#">
+                    <div>
+                        <input type="text" id="nama-pengajar" placeholder="Nama Lengkap">
+                    </div>
+                    <div>
+                        <input type="text" id="jurusan-pengajar" placeholder="Jurusan">
+                    </div>
+                    <div>
+                        <input type="text" id="alamat-pengajar" placeholder="Alamat Lengkap">
+                    </div>
+                    <div>
+                        <input type="text" id="pengalaman-pengajar" placeholder="Pengalaman">
+                    </div>
+                    <button id="btn-pengajar">Simpan</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="section">
+            <h6>Egrow</h6>
+            <ul>
+                <li>About Us</li>
+                <li>Program</li>
+                <li>Pengajar</li>
+                <li>Blog</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h6>Partner Kami</h6>
+            <ul>
+                <li>Azzawiyah Grow</li>
+                <li>TPQ MRBJ</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h6>Social Media</h6>
+            <ul>
+                <li>
+                    <img src="../assets/ilustrations/Instagram.png" alt="Logo Instagram">
+                    <p>Instagram</p>
+                </li>
+                <li>
+                    <img src="../assets/ilustrations/YouTube.png" alt="Logo YouTube">
+                    <p>YouTube</p>
+                </li>
+                <li>
+                    <img src="../assets/ilustrations/WhatsApp.png" alt="Logo WhatsApp">
+                    <p>WhatsApp</p>
+                </li>
+            </ul>
+        </div>
+        <i class="copyright">@Copyright</i>
+    </footer>
+
+    <script src="./js/navbar.js"></script>
+    <script src="./js/pengajar.js"></script>
+</body>
+
+</html>
